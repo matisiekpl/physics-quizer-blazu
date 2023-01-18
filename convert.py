@@ -1,7 +1,7 @@
 import csv
 import json
 
-reader = csv.reader(open('fizykapytania.csv', 'r'))
+reader = csv.reader(open('fizykapytania2.csv', 'r'))
 
 questions = []
 
