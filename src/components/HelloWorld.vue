@@ -45,7 +45,14 @@
     <h1 style="color: green" v-if="answer_a_correct&&answer_b_correct&&answer_c_correct&&answer_d_correct">
       Gratulacje</h1>
 
-    <div class="controls">
+    <div class="desktop">
+      <button @click="load(-1)" style="font-size: 16px;" class="button ">Wstecz</button>
+      <b style="margin-left: 4px; margin-right: 4px;">{{ i + 1 }}</b>
+      <button @click="load(1)" style="font-size: 16px;" class="button">Dalej</button>
+      <button @click="check" style="font-size: 16px; margin-right: 12px;" class="button style-accent">Sprawdź</button>
+    </div>
+
+    <div class="controls mobile">
       <button @click="load(-1)" style="font-size: 16px;" class="button ">Wstecz</button>
       <b style="margin-left: 4px; margin-right: 4px;">{{ i + 1 }}</b>
       <button @click="load(1)" style="font-size: 16px;" class="button">Dalej</button>
@@ -169,5 +176,23 @@ input[type=checkbox] {
   z-index: 100;
 }
 
+.mobile {
+  display: none;
+}
 
+@media only screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+}
+
+.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+}
 </style>
