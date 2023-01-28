@@ -1,7 +1,7 @@
 <template>
   <div class="hello" style="padding: 12px;">
 
-    <small><a href="https://github.com/matisiekpl/physics-quizer-blazu/blob/master/src/assets/questions4.json">github</a></small><br/>
+    <small><a target="_blank" href="https://github.com/matisiekpl/physics-quizer-blazu/blob/master/src/assets/questions4.json">github</a></small><br/>
 
     <small>Odpowiedziałeś poprawnie
       <mark>{{ answered_correctly }}/{{ answered }}</mark></small><br/><br/>
