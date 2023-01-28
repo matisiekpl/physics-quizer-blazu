@@ -1,7 +1,12 @@
 <template>
-  <div class="hello">
-    <h2>{{ question['question'] }}</h2>
-    <p style="font-size: 26px">
+  <div class="hello" style="padding: 12px;">
+
+    <small><a href="https://github.com/matisiekpl/physics-quizer-blazu/blob/master/src/assets/questions4.json">github</a></small><br/>
+
+    <small>Odpowiedziałeś poprawnie
+      <mark>{{ answered_correctly }}/{{ answered }}</mark></small><br/><br/>
+    <h5>{{ question['question'] }}</h5>
+    <p style="font-size: 18px; margin-bottom: 64px;">
       <input type="checkbox" id="answer_a" name="answer_a" v-model="answer_a_selected">
       <label for="answer_a"><span :class="{'blue':question['answer_a_correct']&&checking}" style="margin-right: 12px;">{{
           question['answer_a']
@@ -11,7 +16,7 @@
               v-if="checking&&!answer_a_correct">Źle</span>
       </label><br>
 
-      <input type="checkbox" id="answer_b" name="answer_b" v-model="answer_b_selected">
+      <input type="checkbox" id="answer_b" name="answer_b" v-model="answer_b_selected" class="checkbox">
       <label for="answer_b"><span :class="{'blue':question['answer_b_correct']&&checking}" style="margin-right: 12px;">{{
           question['answer_b']
         }}</span>
@@ -40,17 +45,18 @@
     <h1 style="color: green" v-if="answer_a_correct&&answer_b_correct&&answer_c_correct&&answer_d_correct">
       Gratulacje</h1>
 
-    <button @click="check" style="font-size: 26px; margin-right: 12px;">Sprawdź</button>
-    <br/>
-    <button @click="load(-1)" style="font-size: 26px;">Wstecz</button>
-    <br/>
-    <b style="margin-left: 4px; margin-right: 4px;">{{ i + 1 }}</b><br/>
-    <button @click="load(1)" style="font-size: 26px;">Dalej</button>
+    <div class="controls">
+      <button @click="load(-1)" style="font-size: 16px;" class="button ">Wstecz</button>
+      <b style="margin-left: 4px; margin-right: 4px;">{{ i + 1 }}</b>
+      <button @click="load(1)" style="font-size: 16px;" class="button">Dalej</button>
+      <button @click="check" style="font-size: 16px; margin-right: 12px;" class="button style-accent">Sprawdź</button>
+    </div>
   </div>
 </template>
 
 <script>
-const questions = require('../assets/questions.json');
+const questions = require('../assets/questions4.json');
+
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -153,5 +159,14 @@ input[type=checkbox] {
 
 .blue {
   color: blue;
+}
+
+.controls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  z-index: 100;
 }
 </style>
