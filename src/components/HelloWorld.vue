@@ -16,7 +16,7 @@
               v-if="checking&&!answer_a_correct">Źle</span>
       </label><br>
 
-      <input type="checkbox" id="answer_b" name="answer_b" v-model="answer_b_selected" class="checkbox">
+      <input type="checkbox" id="answer_b" name="answer_b" v-model="answer_b_selected" >
       <label for="answer_b"><span :class="{'blue':question['answer_b_correct']&&checking}" style="margin-right: 12px;">{{
           question['answer_b']
         }}</span>
