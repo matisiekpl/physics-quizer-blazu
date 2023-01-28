@@ -369,7 +369,7 @@
     "answer_c": "Zwiększenie odległości okładek od siebie zwiększy pojemność",
     "answer_d": "Włożenie między okładki dielektryka powoduje zmniejszenie pojemności",
     "answer_a_correct": true,
-    "answer_b_correct": false,
+    "answer_b_correct": true,
     "answer_c_correct": false,
     "answer_d_correct": false
   },
