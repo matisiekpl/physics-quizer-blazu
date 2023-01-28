@@ -145,8 +145,7 @@ export default {
 
 <style>
 input[type=checkbox] {
-  transform: scale(1.5);
-  margin-right: 12px;
+  /*margin-right: 12px;*/
 }
 
 .green {
@@ -169,4 +168,6 @@ input[type=checkbox] {
   margin-bottom: 12px;
   z-index: 100;
 }
+
+
 </style>
