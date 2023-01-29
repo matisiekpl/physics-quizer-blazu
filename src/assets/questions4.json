@@ -66,6 +66,28 @@
     "answer_d_correct": false
   },
   {
+    "question": "Które z podanych niżej jest równaniem zwierciadłą",
+    "answer_a": "1/f = 1/x + 1/y",
+    "answer_b": "Z = 1/f;",
+    "answer_c": "f = (nwzg − 1)( 1/R1 + 1/R2 )",
+    "answer_d": "p = H/h",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Które z podanych niżej jest równaniem soczewkowym",
+    "answer_a": "1/f = 1/x + 1/y",
+    "answer_b": "Z = 1/f;",
+    "answer_c": "f = (nwzg − 1)( 1/R1 + 1/R2 )",
+    "answer_d": "p = H/h",
+    "answer_a_correct": false,
+    "answer_b_correct": false,
+    "answer_c_correct": true,
+    "answer_d_correct": false
+  },
+  {
     "question": "Które z poniższych zdań dotyczących interferencji fal świetlnych nie jest prawdziwe",
     "answer_a": "Warunkiem dobrze określonego obrazu interferencyjnego jest aby interferujące fale świetlne miały dokładnie określoną, zmienną w czasie różnicę faz",
     "answer_b": "Różnica faz fal składowych decyduje o natężeniu światła w punkcie nałożenia się fal",
@@ -332,9 +354,9 @@
   {
     "question": "Siła elektrodynamiczna:",
     "answer_a": "Siła, z jaką działa pole magnetyczne na przewód elektryczny, w którym płynie prąd elektryczny.",
-    "answer_b": "",
-    "answer_c": "",
-    "answer_d": "",
+    "answer_b": "Praca przypadająca na jednostkowy ładunek, jaką wykonuje ładunek",
+    "answer_c": "Siła działająca między dwoma ładunkami będącymi w ruchu",
+    "answer_d": "Żadna z powyższych",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
@@ -507,10 +529,169 @@
   },
   {
     "question": "Pytanie związane z szerokością przerwy i zjawiskiem tunelowania (chyba w nadprzewodniku).",
-    "answer_a": "Wraz ze wzrostem/zmniejszaniem się szerokości bariery ilość przechodzących cząstek nadmiarowych rośnie/maleje liniowo/eskpotencjalnie",
-    "answer_b": "",
-    "answer_c": "",
-    "answer_d": "",
+    "answer_a": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych maleje eskpotencjalnie",
+    "answer_b": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych rośnie eskpotencjalnie",
+    "answer_c": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych maleje liniowo",
+    "answer_d": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych rośnie liniowo",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+
+  {
+    "question": "Wskaż stwierdzenie nieprawdziwe w odniesieniu do szeregowego obwodu RL",
+    "answer_a": "Indukcyjna stała czasowa wyrażona jest jako stosunek oporu do indukcyjności cewki",
+    "answer_b": "Natężenie prądu w obwodzie narasta eksponencjalnie do wartości SEM/R",
+    "answer_c": "Pojawiająca się dodatkowo w obwodzie SEM samoindukcji przeciwdziała wzrostowi natężenia prądu",
+    "answer_d": "Początkowo cewka przeciwdziała zmianom natężenia prądu płynącego przez nią",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+
+  {
+    "question": "W odniesieniu do kwantowo falowej natury światła fałszem jest stwierdzenie, że:",
+    "answer_a": "Własności kwantowe promieniowania krótkofalowego są mało widoczne, podstawową rolę odgrywają właściwości falowe",
+    "answer_b": "Przy zmniejszeniu długości fali coraz lepiej dostrzegalne są własności kwantowe",
+    "answer_c": "Przy zwiększeniu częstotliwości promieniowania coraz lepiej dostrzegalne są własności kwantowe",
+    "answer_d": "Własności falowe promieniowania krótkofalowego są mało widoczne, podstawową rolę odgrywają właściwości kwantowe",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+
+  {
+    "question": "Zgodnie z zasadą Heisenberga",
+    "answer_a": "ΔEΔt>=h",
+    "answer_b": "ΔEΔx>=h",
+    "answer_c": "ΔEΔt<=h",
+    "answer_d": "ΔEΔx<=h",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Moderator w reaktorach służy do",
+    "answer_a": "Spowalniania neutronów",
+    "answer_b": "Pochłaniania neutronów",
+    "answer_c": "Odprowadzania ciepła",
+    "answer_d": "Żadnej z powyższych",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+
+  {
+    "question": "Elementarnymi nośnikami oddziaływań nie są:",
+    "answer_a": "Mezony",
+    "answer_b": "Fotony",
+    "answer_c": "Gluony",
+    "answer_d": "Bozony W",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Wielkość, która wyraża zdolność obwodu do wzbudzenia w nim pola magnetycznego na skutek prądu przepływającego przez ten obwód nazywa się",
+    "answer_a": "Indukcyjność",
+    "answer_b": "Indukcja",
+    "answer_c": "Strumień pola magnetycznego",
+    "answer_d": "Magnetyczna liczba kwantowa",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+
+  {
+    "question": "Wskaż zdanie prawdziwe na temat energii wiązania jądra",
+    "answer_a": "Energia wiązania rośnie wraz z liczbą atomową",
+    "answer_b": "Energia wiązania maleje wraz z liczbą atomową",
+    "answer_c": "Energia wiązania to energia jaką należy dostarczyć by rozdzielić jądro",
+    "answer_d": "Żadne z powyższych",
+    "answer_a_correct": false,
+    "answer_b_correct": false,
+    "answer_c_correct": true,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Fakt, że c jest stałe w próżni udowodniło doświadczenie",
+    "answer_a": "Michelsona - Morleya",
+    "answer_b": "Einsteina - Millikana",
+    "answer_c": "Millikana - Morleya",
+    "answer_d": "Davissona - Germera",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Konswekencją szczególnej teorii względności nie są",
+    "answer_a": "Względność jednoczesności",
+    "answer_b": "Zakrzywienie czasoprzestrzeni przez masę",
+    "answer_c": "Transformacje Lorentza",
+    "answer_d": "Dylatacja czasu",
+    "answer_a_correct": false,
+    "answer_b_correct": true,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Elektron to",
+    "answer_a": "Lepton",
+    "answer_b": "Hepton",
+    "answer_c": "Bozon",
+    "answer_d": "Mezon",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Gdy prędkość cząstki wzrośnie 2 razy, co się stanie z częstością cyklotronową?",
+    "answer_a": "nie zmieni się",
+    "answer_b": "wzrośnie 2x",
+    "answer_c": "zmaleje 2x",
+    "answer_d": "zmaleje 4x",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Prędkość światła w ośrodku innym niż próżnia zależy",
+    "answer_a": "od własności magnetycznych i elektrycznych tego ośrodka",
+    "answer_b": "jedynie od własności elektrycznych tego ośrodka",
+    "answer_c": "jedynie od własności magnetycznych tego ośrodka",
+    "answer_d": "żadne z powyższych",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Która z liczb kwatnowych wyraża wielkość bezwzględną orbitalnego momentu pędu",
+    "answer_a": "Poboczna",
+    "answer_b": "Główna",
+    "answer_c": "Magnetyczna",
+    "answer_d": "Spinowa",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "W przemianie jądrowej gamma liczba atomowa pierwiastka",
+    "answer_a": "nie zmieni się",
+    "answer_b": "maleje o 1",
+    "answer_c": "wzrasta o 2",
+    "answer_d": "maleje o 2",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
@@ -530,9 +711,9 @@
   {
     "question": "Indukcyjnośc określa zależność pomiedzy następującymi wielkościami fizycznymi",
     "answer_a": "Natężenie + strumień magnetyczny",
-    "answer_b": "",
-    "answer_c": "",
-    "answer_d": "",
+    "answer_b": "Siła, natężenie, długość przewodnika",
+    "answer_c": "Siłę, ładunek, prędkość ładunku",
+    "answer_d": "Żadne z powyższych",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
@@ -594,13 +775,24 @@
     "answer_d_correct": false
   },
   {
-    "question": "Wzór całka E x dS = Q/epsilonzero jest matematycznym opisem prawa",
-    "answer_a": "Żadna z powyższych (bo krzyż)",
-    "answer_b": "Gaussa ",
-    "answer_c": "Ampere’a",
-    "answer_d": "",
+    "question": "Wzór całka E x dS jest matematycznym opisem prawa",
+    "answer_a": "Żadna z powyższych",
+    "answer_b": "Gaussa",
+    "answer_c": "Ampera",
+    "answer_d": "Faradaya",
     "answer_a_correct": true,
     "answer_b_correct": false,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Wzór całka E • dS jest matematycznym opisem prawa",
+    "answer_a": "Żadna z powyższych",
+    "answer_b": "Gaussa",
+    "answer_c": "Ampera",
+    "answer_d": "Faradaya",
+    "answer_a_correct": false,
+    "answer_b_correct": true,
     "answer_c_correct": false,
     "answer_d_correct": false
   },
@@ -898,6 +1090,17 @@
     "answer_d": "W zewnętrznym polu magnetycznym domeny ferromagnetyka magnesują się przeciwnie do tego pola.",
     "answer_a_correct": true,
     "answer_b_correct": true,
+    "answer_c_correct": false,
+    "answer_d_correct": false
+  },
+  {
+    "question": "Wskaż wzór na zdolność skupiającą",
+    "answer_a": "Z = 1/f",
+    "answer_b": "1/f = 1/x+1/y",
+    "answer_c": "1/f = (n-1)(1/R1 + 1/R2)",
+    "answer_d": "p = H / h",
+    "answer_a_correct": true,
+    "answer_b_correct": false,
     "answer_c_correct": false,
     "answer_d_correct": false
   },

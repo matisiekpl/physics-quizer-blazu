@@ -1,46 +1,61 @@
 <template>
   <div class="hello" style="padding: 12px;">
 
-    <small><a target="_blank" href="https://github.com/matisiekpl/physics-quizer-blazu/blob/master/src/assets/questions4.json">github</a></small><br/>
+    <small><a target="_blank"
+              href="https://github.com/matisiekpl/physics-quizer-blazu/blob/master/src/assets/questions4.json">github</a></small><br/>
 
     <small>Odpowiedziałeś poprawnie
-      <mark>{{ answered_correctly }}/{{ answered }}</mark></small><br/><br/>
+      <mark>{{ answered_correctly }}/{{ answered }}</mark>
+    </small><br/><br/>
     <h5>{{ question['question'] }}</h5>
-    <p style="font-size: 18px; margin-bottom: 64px;">
-      <input type="checkbox" id="answer_a" name="answer_a" v-model="answer_a_selected">
-      <label for="answer_a"><span :class="{'blue':question['answer_a_correct']&&checking}" style="margin-right: 12px;">{{
-          question['answer_a']
-        }}</span>
-        <span class="green" v-if="checking&&answer_a_correct">Dobrze</span>
-        <span class="red"
-              v-if="checking&&!answer_a_correct">Źle</span>
-      </label><br>
+    <div style="font-size: 18px; margin-bottom: 64px;">
 
-      <input type="checkbox" id="answer_b" name="answer_b" v-model="answer_b_selected" >
-      <label for="answer_b"><span :class="{'blue':question['answer_b_correct']&&checking}" style="margin-right: 12px;">{{
-          question['answer_b']
-        }}</span>
-        <span class="green" v-if="checking&&answer_b_correct">Dobrze</span>
-        <span class="red"
-              v-if="checking&&!answer_b_correct">Źle</span></label><br>
+      <div v-if="question['answer_a']!==''">
+        <input type="checkbox" id="answer_a" name="answer_a" v-model="answer_a_selected">
+        <label for="answer_a"><span :class="{'blue':question['answer_a_correct']&&checking}"
+                                    style="margin-right: 12px;">{{
+            question['answer_a']
+          }}</span>
+          <span class="green" v-if="checking&&answer_a_correct">Dobrze</span>
+          <span class="red"
+                v-if="checking&&!answer_a_correct">Źle</span>
+        </label><br>
+      </div>
 
-      <input type="checkbox" id="answer_c" name="answer_c" v-model="answer_c_selected">
-      <label for="answer_c"><span :class="{'blue':question['answer_c_correct']&&checking}" style="margin-right: 12px;">{{
-          question['answer_c']
-        }}</span> <span class="green"
-                        v-if="checking&&answer_c_correct">Dobrze</span>
-        <span class="red"
-              v-if="checking&&!answer_c_correct">Źle</span></label><br>
+      <div v-if="question['answer_b']!==''">
+        <input type="checkbox" id="answer_b" name="answer_b" v-model="answer_b_selected">
+        <label for="answer_b"><span :class="{'blue':question['answer_b_correct']&&checking}"
+                                    style="margin-right: 12px;">{{
+            question['answer_b']
+          }}</span>
+          <span class="green" v-if="checking&&answer_b_correct">Dobrze</span>
+          <span class="red"
+                v-if="checking&&!answer_b_correct">Źle</span></label><br>
+      </div>
 
-      <input type="checkbox" id="answer_d" name="answer_d" v-model="answer_d_selected">
-      <label for="answer_d"><span :class="{'blue':question['answer_d_correct']&&checking}" style="margin-right: 12px;">{{
-          question['answer_d']
-        }}</span>
-        <span class="green" v-if="checking&&answer_d_correct">Dobrze</span>
-        <span class="red"
-              v-if="checking&&!answer_d_correct">Źle</span></label><br>
+      <div v-if="question['answer_c']!==''">
+        <input type="checkbox" id="answer_c" name="answer_c" v-model="answer_c_selected">
+        <label for="answer_c"><span :class="{'blue':question['answer_c_correct']&&checking}"
+                                    style="margin-right: 12px;">{{
+            question['answer_c']
+          }}</span> <span class="green"
+                          v-if="checking&&answer_c_correct">Dobrze</span>
+          <span class="red"
+                v-if="checking&&!answer_c_correct">Źle</span></label><br>
+      </div>
 
-    </p>
+      <div v-if="question['answer_d']!==''">
+        <input type="checkbox" id="answer_d" name="answer_d"
+               v-model="answer_d_selected">
+        <label for="answer_d"><span :class="{'blue':question['answer_d_correct']&&checking}"
+                                    style="margin-right: 12px;">{{
+            question['answer_d']
+          }}</span>
+          <span class="green" v-if="checking&&answer_d_correct">Dobrze</span>
+          <span class="red"
+                v-if="checking&&!answer_d_correct">Źle</span></label><br></div>
+
+    </div>
 
     <h1 style="color: green" v-if="answer_a_correct&&answer_b_correct&&answer_c_correct&&answer_d_correct">
       Gratulacje</h1>
@@ -97,6 +112,7 @@ export default {
   mounted() {
     shuffleArray(this.questions);
     this.load(0);
+    document.title = `Fizyka2 Quiz (${this.questions.length} pytania)`;
   },
   methods: {
     load(direction = 1) {
@@ -141,7 +157,6 @@ export default {
           this.answer_c_correct &&
           this.answer_d_correct) this.answered_correctly++;
       this.answered++;
-      document.title = `Fizyka Quiz (${this.answered_correctly}/${this.answered})`;
     },
     next() {
       this.load();
