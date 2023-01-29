@@ -194,7 +194,7 @@
     "answer_d": "Napięcie hamowania zależy liniowo od częstotliwości padającego światła",
     "answer_a_correct": true,
     "answer_b_correct": false,
-    "answer_c_correct": false,
+    "answer_c_correct": true,
     "answer_d_correct": false
   },
   {
@@ -280,9 +280,9 @@
     "answer_b": "Energia kinetyczna emitowanych elektronów jest zależna od długości fali",
     "answer_c": "Energia kinetyczna emitowanych elektronów jest zależna od natężenia światła",
     "answer_d": "Efekt fotoelektryczny zachodzi jedynie do określonej częstotliwości granicznej świtała",
-    "answer_a_correct": true,
+    "answer_a_correct": false,
     "answer_b_correct": false,
-    "answer_c_correct": false,
+    "answer_c_correct": true,
     "answer_d_correct": false
   },
   {
@@ -824,8 +824,8 @@
     "answer_b": "Rozpraszanie fali elektromagnetycznej na swobodnych elektronach",
     "answer_c": "Zderzenie nieruchomego elektronu i fotonu.",
     "answer_d": "Potwierdza korpuskularną nautrę światła",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
+    "answer_a_correct": false,
+    "answer_b_correct": true,
     "answer_c_correct": false,
     "answer_d_correct": false
   },
@@ -989,7 +989,7 @@
     "answer_b": "Rośnie prad dyfuzji elektronów z obszaru n do p i dziur z obszaru p do n",
     "answer_c": "Rośnie prawdopodobieństwo przejścia nosników mniejszościowych przez warstwę zaporową",
     "answer_d": "Prąd dyfuzji nośrków większościowych znacznie większy niz prąd unoszenia nośników mniejszościowych",
-    "answer_a_correct": true,
+    "answer_a_correct": false,
     "answer_b_correct": true,
     "answer_c_correct": false,
     "answer_d_correct": true
