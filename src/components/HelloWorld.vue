@@ -106,7 +106,8 @@ export default {
       questions,
       i: 0,
       answered_correctly: 0,
-      answered: 0
+      answered: 0,
+      counted: false
     };
   },
   mounted() {
@@ -116,6 +117,7 @@ export default {
   },
   methods: {
     load(direction = 1) {
+      this.counted = false;
       this.i = Math.max(this.i + direction, 0);
       this.question = questions[this.i];
       const pairs = [];
@@ -129,7 +131,11 @@ export default {
       this.answer_d_selected = false;
       this.checking = false;
       if (this.i > this.questions.length - 1) {
-        alert('Czas na piwo!');
+        if (this.answered_correctly < 50) {
+          alert('Ojoj! Chyba będzie spotkanie z Rudą...');
+        } else {
+          alert('Czas na piwo!');
+        }
         return;
       }
       pairs.push([this.question['answer_a'], this.question['answer_a_correct']]);
@@ -155,11 +161,9 @@ export default {
       if (this.answer_a_correct &&
           this.answer_b_correct &&
           this.answer_c_correct &&
-          this.answer_d_correct) this.answered_correctly++;
-      this.answered++;
-    },
-    next() {
-      this.load();
+          this.answer_d_correct) if (!this.counted) this.answered_correctly++;
+      if (!this.counted) this.answered++;
+      this.counted = true;
     }
   }
 }
