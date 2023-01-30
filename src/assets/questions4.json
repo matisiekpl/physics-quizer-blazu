@@ -532,10 +532,10 @@
 
   {
     "question": "Zgodnie z zasadą Heisenberga",
-    "answer_a": "ΔEΔt>=h",
-    "answer_b": "ΔEΔx>=h",
-    "answer_c": "ΔEΔt<=h",
-    "answer_d": "ΔEΔx<=h",
+    "answer_a": "ΔEΔt>=ℏ / 2",
+    "answer_b": "ΔEΔx>=ℏ / 2",
+    "answer_c": "ΔEΔt<=ℏ / 2",
+    "answer_d": "ΔEΔx<=ℏ / 2",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
@@ -980,7 +980,7 @@
     "answer_d": "Przewodnictwo typu n polega na przemieszczaniu elektronów w paśmie podstawowym w kierunku zgodnym z kierunkiem wektora zewnętrznego pola elektrycznego.",
     "answer_a_correct": true,
     "answer_b_correct": false,
-    "answer_c_correct": true,
+    "answer_c_correct": false,
     "answer_d_correct": false
   },
   {
