@@ -38,9 +38,9 @@
     "answer_b": "Siła oddziałujące między dwoma ładunkami elektrycznymi, bedącymi w ruchu",
     "answer_c": "Siła działająca na przewodnik z prądem w polu magnetycznym",
     "answer_d": "Siła działająca na ładunki punktowe umieszczone w polu magnetycznym",
-    "answer_a_correct": true,
+    "answer_a_correct": false,
     "answer_b_correct": false,
-    "answer_c_correct": false,
+    "answer_c_correct": true,
     "answer_d_correct": false
   },
   {
