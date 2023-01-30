@@ -19,10 +19,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 body {
   touch-action: manipulation;
+  background-color: #141F23;
+  color: white;
 }
 </style>

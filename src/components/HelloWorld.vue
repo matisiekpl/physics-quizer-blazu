@@ -183,7 +183,7 @@ input[type=checkbox] {
 }
 
 .blue {
-  color: blue;
+  color: royalblue;
 }
 
 .controls {
