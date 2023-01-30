@@ -55,17 +55,6 @@
     "answer_d_correct": false
   },
   {
-    "question": "Które z podanych niżej jest równaniem soczewki",
-    "answer_a": "1/f = 1/x + 1/y",
-    "answer_b": "Z = 1/f;",
-    "answer_c": "f = (nwzg − 1)( 1/R1 + 1/R2 )",
-    "answer_d": "p = H/h",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },
-  {
     "question": "Które z podanych niżej jest równaniem zwierciadłą",
     "answer_a": "1/f = 1/x + 1/y",
     "answer_b": "Z = 1/f;",
@@ -78,9 +67,9 @@
   },
   {
     "question": "Które z podanych niżej jest równaniem soczewkowym",
-    "answer_a": "1/f = 1/x + 1/y",
+    "answer_a": "f = 1/x + 1/y",
     "answer_b": "Z = 1/f;",
-    "answer_c": "f = (nwzg − 1)( 1/R1 + 1/R2 )",
+    "answer_c": "1/f = (nwzg − 1)( 1/R1 + 1/R2 )",
     "answer_d": "p = H/h",
     "answer_a_correct": false,
     "answer_b_correct": false,
@@ -148,17 +137,6 @@
     "answer_b": "Duża konduktywność",
     "answer_c": "Obceność elektronów w paśmie przewodnictwa",
     "answer_d": "Szerokość pasma zabronionego - 0.1eV",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },
-  {
-    "question": "Wskaż zdanie prawdziwe",
-    "answer_a": "Przewodnictwo typu n polega na przemieszczeniu elektronów w paśmie przewodzenia w kierunku przeciwnym do wektora zewnętrznego pola elektrycznego.",
-    "answer_b": "Przewodnictwo typu n polega na przemieszczeniu elektronów w paśmie podstawowym w kierunku zgodnym z wektorem zewnętrznego pola elektrycznego.",
-    "answer_c": "Przewodnictwo typu p polega na przemieszczeniu elektronów w paśmie podstawowym w kierunku zgodnym z wektorem zewnętrznego pola elektrycznego.",
-    "answer_d": "Przewodnictwo typu p polega na przemieszczeniu elektronów w paśmie przewodzenia w kierunku zgodnym z wektorem zewnętrznego pola elektrycznego.",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
@@ -330,17 +308,6 @@
     "answer_d_correct": false
   },
   {
-    "question": "Doświadczenie, które doprowadziło do odkrycia jądra atomowego było przeprowadzone przez",
-    "answer_a": "Rutherford’a",
-    "answer_b": "Farradaya",
-    "answer_c": "Compton’a",
-    "answer_d": "de Broglie’a",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },
-  {
     "question": "Które z poniższych zdań dot. interferencji fal świetlnych nie jest prawdziwe?",
     "answer_a": "Warunkiem powstania dobrze określonego obrazu interferencyjnego jest aby interferujące fale świetlne padały z dokładnie określoną, zmienną  w czasie różnicę faz",
     "answer_b": "Różnica dróg optycznych przebytych przez fale składowe decyduje o natężeniu światła w punkcie nałożenia się fal",
@@ -421,12 +388,12 @@
     "question": "Wraz ze wzrostem temperatury w przewodniku:",
     "answer_a": "Rezystancja rośnie",
     "answer_b": "Konduktancja rośnie",
-    "answer_c": "",
-    "answer_d": "",
+    "answer_c": "Rezystancja maleje",
+    "answer_d": "Konduktancja maleje",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
-    "answer_d_correct": false
+    "answer_d_correct": true
   },
   {
     "question": "Który wzór na energie potencjalną pola elektrycznego jest prawdziwy",
@@ -442,9 +409,9 @@
   {
     "question": "Które doświadczenie udowodniło falowość światła:",
     "answer_a": "Younga",
-    "answer_b": "",
-    "answer_c": "",
-    "answer_d": "",
+    "answer_b": "Michelsona-Morleya",
+    "answer_c": "Rutherforda",
+    "answer_d": "Davissona-Germera",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
@@ -520,15 +487,15 @@
     "question": "Które zdanie dla ferromagnetyków jest poprawne.",
     "answer_a": "W zewnętrznym polu układa się zgodnie z liniami pola",
     "answer_b": "W obrębie jednej domeny wypadkowy jest równy 0",
-    "answer_c": "Bez zewnętrznego pola ukłądają się liniowo coś tam",
-    "answer_d": "",
+    "answer_c": "Bez zewnętrznego pola domeny ukłądają się liniowo względem siebie",
+    "answer_d": "W zewnętrznym polu układa się prostopadle do linii pola",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
     "answer_d_correct": false
   },
   {
-    "question": "Pytanie związane z szerokością przerwy i zjawiskiem tunelowania (chyba w nadprzewodniku).",
+    "question": "Pytanie związane z szerokością przerwy i zjawiskiem tunelowania.",
     "answer_a": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych maleje eskpotencjalnie",
     "answer_b": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych rośnie eskpotencjalnie",
     "answer_c": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych maleje liniowo",
@@ -699,14 +666,14 @@
   },
   {
     "question": "Który  z postulatów Plancka odnośnie emisji ciała doskonale czarnego jest fałszywy",
-    "answer_a": "Energia oscylatora harmonicznego jest całkowitą wielokrotnością h (stałej Plancka) ",
-    "answer_b": "żadna odpowiedź nie jest poprawna",
+    "answer_a": "Energia oscylatora jest kwantowa",
+    "answer_b": "Wszystkie odpowiedzi poprawne",
     "answer_c": "Oscylator znajdujący się w stanie stacjonarnym nie emituje ani nie absorbuje energii",
-    "answer_d": "Atomy ciałą doskonale czarnego zachowują się jak oscylatory harmoniczne o określonej częstości drgań ",
-    "answer_a_correct": true,
+    "answer_d": "Atomy ciałą doskonale czarnego zachowują się jak oscylatory anharmoniczne o określonej częstości drgań ",
+    "answer_a_correct": false,
     "answer_b_correct": false,
     "answer_c_correct": false,
-    "answer_d_correct": false
+    "answer_d_correct": true
   },
   {
     "question": "Indukcyjnośc określa zależność pomiedzy następującymi wielkościami fizycznymi",
@@ -720,20 +687,9 @@
     "answer_d_correct": false
   },
   {
-    "question": "Półprzewodnik wskaż NIEPOPRAWNĄ odpowiedź",
-    "answer_a": "W półprzewodniku typu p elektrony wskakują na poziom ",
-    "answer_b": "Półprzewodnik typu p ma domieszkę akceptorową",
-    "answer_c": "Półprzewodnik typu n ma domieszkę donorową",
-    "answer_d": "",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },
-  {
     "question": "Diamagnetyki - wskaż prawdziwe",
     "answer_a": "W polu magnetycznym tworza pole przeciwne do zewnętrzenego  ",
-    "answer_b": "namagnesowują się",
+    "answer_b": "Namagnesowują się samoistnie",
     "answer_c": "Ustawiają się przeciwnie do pola magnetycznego",
     "answer_d": "Układają się wzdłuż lini pola",
     "answer_a_correct": true,
@@ -820,21 +776,21 @@
   },
   {
     "question": "Nieprawdziwe zdanie o efekcie comptona",
-    "answer_a": "Po uderzeniu fotonu w elektron zmieni się długość fali",
+    "answer_a": "Po uderzeniu elektronu w foton zmieni się długość fali",
     "answer_b": "Rozpraszanie fali elektromagnetycznej na swobodnych elektronach",
     "answer_c": "Zderzenie nieruchomego elektronu i fotonu.",
     "answer_d": "Potwierdza korpuskularną nautrę światła",
-    "answer_a_correct": false,
-    "answer_b_correct": true,
+    "answer_a_correct": true,
+    "answer_b_correct": false,
     "answer_c_correct": false,
     "answer_d_correct": false
   },
   {
     "question": "Wyprowadzenie jednostki oporu [Om]",
     "answer_a": "(1kg * 1m^2) / (1s^3 * A^2)",
-    "answer_b": "",
-    "answer_c": "",
-    "answer_d": "",
+    "answer_b": "(1kg * 1m^3) / (1s^2 * A^2)",
+    "answer_c": "(1kg * 1m^2) / (1s^2 * A^3)",
+    "answer_d": "1kg / (1s^2 * A)",
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
@@ -860,39 +816,6 @@
     "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": false,
-    "answer_d_correct": false
-  },
-  {
-    "question": "Które zdoświadczeń doprowadziła do odkrycia jądra atomowego?",
-    "answer_a": "doświadczenie Roentgena",
-    "answer_b": "doświadczenie Bohra",
-    "answer_c": "doświadczenie Thomson'a",
-    "answer_d": "doświadczenie Rutherforda",
-    "answer_a_correct": false,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": true
-  },
-  {
-    "question": "Który z poniższych wzorów opisuje energię potencialną (E) pola elektrycznego w odległości r od ładunku punktowego Q (symbol użyty do określenia zarówno ładunku ujemnego jak i dodatniego), jeśli q oznacza ładunek próbny?",
-    "answer_a": "Ep=kQ/r",
-    "answer_b": "Ep=-kQq/r",
-    "answer_c": "Ep=kQ/r",
-    "answer_d": "Ep=kQq/r",
-    "answer_a_correct": false,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": true
-  },
-  {
-    "question": "Natężenie jednorodnego pola elektrycznego, wytworzonego przez dwie równoległe płaszczyzny, naładowane różnoimiennym ładunkiem, przy stałej wartości potencjału elektrycznego:",
-    "answer_a": "maleje linowo wraz ze wzrostem odlegiości miedzy płytami",
-    "answer_b": "wzrasta kwadratowo wraz ze wzrostem odległości między płytami",
-    "answer_c": "pozostaje stale przy zmianie odległości miedzy płytami",
-    "answer_d": "wzrasta liniowo wraz ze wzrostem odległości między płytami",
-    "answer_a_correct": false,
-    "answer_b_correct": false,
-    "answer_c_correct": true,
     "answer_d_correct": false
   },
   {
@@ -990,9 +913,9 @@
     "answer_c": "Rośnie prawdopodobieństwo przejścia nosników mniejszościowych przez warstwę zaporową",
     "answer_d": "Prąd dyfuzji nośrków większościowych znacznie większy niz prąd unoszenia nośników mniejszościowych",
     "answer_a_correct": false,
-    "answer_b_correct": true,
-    "answer_c_correct": false,
-    "answer_d_correct": true
+    "answer_b_correct": false,
+    "answer_c_correct": true,
+    "answer_d_correct": false
   },
   {
     "question": "Prawdopodobieństwo tunelowania cząstki przez barierę:",
