@@ -879,7 +879,7 @@
     "answer_b": "u0*l*r/2*pi*R^2 gdy R < od promienia przewodnika (r)",
     "answer_c": "u0*l/2*pi*R gdy R > od promienia przewodnika",
     "answer_d": "u0*l/4*pi*R^2 gdy R < od promienia przewodnika (r)",
-    "answer_a_correct": false,
+    "answer_a_correct": true,
     "answer_b_correct": false,
     "answer_c_correct": true,
     "answer_d_correct": false
