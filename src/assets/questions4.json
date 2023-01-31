@@ -257,11 +257,11 @@
     "answer_a": "Napięcie hamowania zależy liniowo od częstotliwości padającego światła",
     "answer_b": "Energia kinetyczna emitowanych elektronów jest zależna od długości fali",
     "answer_c": "Energia kinetyczna emitowanych elektronów jest zależna od natężenia światła",
-    "answer_d": "Efekt fotoelektryczny zachodzi jedynie do określonej częstotliwości granicznej świtała",
+    "answer_d": "Efekt fotoelektryczny zachodzi jedynie poniżej określonej częstotliwości granicznej świtała",
     "answer_a_correct": false,
     "answer_b_correct": false,
     "answer_c_correct": true,
-    "answer_d_correct": false
+    "answer_d_correct": true
   },
   {
     "question": "Zgodnie z postulatami Bohra",
